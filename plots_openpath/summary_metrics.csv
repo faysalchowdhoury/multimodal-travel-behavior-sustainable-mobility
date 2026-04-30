@@ -1,0 +1,17 @@
+Metric,Value,Interpretation
+Baseline accuracy,0.8251028806584362,Reference benchmark
+Baseline weighted F1,0.8246321495921615,Reference benchmark
+Personalized simulation accuracy,0.8287037037037037,Aim 1
+Personalized simulation weighted F1,0.8282692209153828,Aim 1
+Personalized simulation macro F1,0.79525508003417,Aim 1
+Standard modes avg F1,0.7794424589457332,Aim 1 target context
+Bike proxy F1,0.8585055643879174,Micromobility proxy
+UQ overall accuracy,0.823045267489712,Aim 2
+UQ weighted F1,0.822036862521912,Aim 2
+Auto-label rate,0.7998971193415638,Trips accepted without prompt
+Prompt rate,0.2001028806584362,Trips sent to user confirmation
+Burden reduction,0.7998971193415638,Reduction vs prompt-all baseline
+Auto-label accuracy,0.9009646302250803,Among confident trips
+Total coverage after prompting,1.0,Assumes prompted trips are confirmed
+Mean entropy,0.4735109219553914,UQ summary
+Mean confidence,0.8487653062774234,UQ summary
